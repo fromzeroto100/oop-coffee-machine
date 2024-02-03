@@ -1,3 +1,6 @@
-import turtle
+from turtle import Turtle, Screen
 
-tyson = turtle.Turtle()
+tyson = Turtle()
+
+my_screen = Screen()
+print(my_screen.canvwidth)
